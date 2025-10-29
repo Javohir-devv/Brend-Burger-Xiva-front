@@ -5,7 +5,42 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+/* asdadsadas */
+/* Default — katta ekranlar */
+.navbar-nav {
+  margin-left: 60px; /* desktop uchun */
+}
 
+/* Large ekranlar (≤1200px) */
+@media (max-width: 1200px) {
+  .navbar-nav {
+    margin-left: 40px;
+  }
+}
+
+/* Medium ekranlar (≤992px) — tablet */
+@media (max-width: 992px) {
+  .navbar-nav {
+    margin-left: 20px;
+  }
+}
+
+/* Small ekranlar (≤768px) — kichik planshet / katta telefon */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 12px;
+  }
+}
+
+/* Mobil (≤576px) — toza markazlashgan menyu yoki 0 margin */
+@media (max-width: 576px) {
+  .navbar-nav {
+    margin-left: 0 !important;   /* inline style ustidan turish uchun !important */
+    justify-content: center;     /* agar nav flex bo'lsa, elementlarni o'rtaga tushiradi */
+  }
+}
+
+/* asdasd */
 .logo{
   width: 80px;
   height: 80px;

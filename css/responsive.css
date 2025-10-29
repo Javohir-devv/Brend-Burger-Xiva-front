@@ -80,6 +80,9 @@ padding-left: 0;
   .slider_section .detail-box h1 {
     font-size: 3rem;
   }
+  .nav-item{
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
